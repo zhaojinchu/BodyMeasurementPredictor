@@ -54,11 +54,11 @@ tk.Label(root, text="Height (cm):").pack()
 entry_height = tk.Entry(root)
 entry_height.pack()
 
-tk.Label(root, text="Expected Weight (kg):").pack()
+tk.Label(root, text="Current Weight (kg):").pack()
 entry_weight = tk.Entry(root)
 entry_weight.pack()
 
-tk.Label(root, text="Current Weight (kg):").pack()
+tk.Label(root, text="Expected Weight (kg):").pack()
 entry_target_weight = tk.Entry(root)
 entry_target_weight.pack()
 
